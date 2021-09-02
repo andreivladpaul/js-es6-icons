@@ -27,7 +27,7 @@ header h1 {
 .container {
   background-color: #dddddd;
   width: 100vw;
-  height: calc(100% - 140px);
+  height: calc(100% - 210px);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -56,6 +56,21 @@ i {
 }
 .icon__name {
   margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #29b1dd;
+  height: 70px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.search select {
+  margin-left: 10px;
 }
 
 footer {
